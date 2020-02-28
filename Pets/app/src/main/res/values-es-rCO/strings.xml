@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="lbl_fname">Nombres</string>
+    <string name="lbl_lname">Apellidos</string>
+    <string name="ht_fname">Pedro</string>
+    <string name="lbl_reg_act">Registro de usuarios</string>
+</resources>
