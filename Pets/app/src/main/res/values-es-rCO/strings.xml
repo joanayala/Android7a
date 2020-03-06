@@ -5,4 +5,9 @@
     <string name="lbl_lname">Apellidos</string>
     <string name="ht_fname">Pedro</string>
     <string name="lbl_reg_act">Registro de usuarios</string>
+    <string name="lbl_email">Correo electrónico</string>
+    <string name="lbl_password">Contraseña</string>
+    <string name="btn_Sign_in">Ingresar</string>
+    <string name="btn_Sign_up">Registrarse</string>
+    <string name="txt_loginbar">Inicio de sesión</string>
 </resources>
