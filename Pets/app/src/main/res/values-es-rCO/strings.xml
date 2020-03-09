@@ -10,4 +10,5 @@
     <string name="btn_Sign_in">Ingresar</string>
     <string name="btn_Sign_up">Registrarse</string>
     <string name="txt_loginbar">Inicio de sesión</string>
+    <string name="ht_email">pedro@gmail.com</string>
 </resources>

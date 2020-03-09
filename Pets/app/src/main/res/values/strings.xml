@@ -9,4 +9,5 @@
     <string name="btn_Sign_in">Sign in</string>
     <string name="btn_Sign_up">Sign up</string>
     <string name="txt_loginbar">Login</string>
+    <string name="ht_email">peter@gmail.com</string>
 </resources>
