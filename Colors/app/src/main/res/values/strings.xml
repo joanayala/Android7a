@@ -4,4 +4,20 @@
     <string name="lbl_green">Green</string>
     <string name="lbl_blue">Blue</string>
     <string name="lbl_alpha">Alpha</string>
+    <!--Options Menu labels/options -->
+    <string name="lblOpTransparent">Transparent</string>
+    <string name="lblOpSemitransparent">Semitransparent</string>
+    <string name="lblOpOpaque">Opaque</string>
+    <string name="lblOpBlack">Black</string>
+    <string name="lblOpWhite">White</string>
+    <string name="lblOpRed">Red</string>
+    <string name="lblOpGreen">Green</string>
+    <string name="lblOpBlue">Blue</string>
+    <string name="lblOpCyan">Cyan</string>
+    <string name="lblOpMagenta">Magenta</string>
+    <string name="lblOpYellow">Yellow</string>
+    <string name="lblOpReset">Reset</string>
+    <string name="lblOpAboutof">About of</string>
+
+
 </resources>
