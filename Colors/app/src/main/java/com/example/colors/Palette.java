@@ -3,6 +3,7 @@ package com.example.colors;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
@@ -57,13 +58,19 @@ public class Palette extends AppCompatActivity
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.iteTransparent :
-                Toast.makeText(this, "This color is going to change", Toast.LENGTH_SHORT).show();
+                vAlpha.setProgress(0);
+                //Toast.makeText(this, "This color is going to change", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.iteSemitransparent :
+                vAlpha.setProgress(128);
+                vRed.setProgress(0);
+                vGreen.setProgress(0);
+                vBlue.setProgress(0);
                 break;
 
             case R.id.iteOpaque :
+                vAlpha.setProgress(255);
                 break;
 
             case R.id.iteBlack :
@@ -74,12 +81,26 @@ public class Palette extends AppCompatActivity
                 break;
 
             case R.id.iteRed :
+                vRed.setProgress(255);
+                vGreen.setProgress(0);
+                vBlue.setProgress(0);
+                vAlpha.setProgress(128);
                 break;
 
             case R.id.iteGreen :
+                //Change color to green
+                vRed.setProgress(0);
+                vGreen.setProgress(255);
+                vBlue.setProgress(0);
+                vAlpha.setProgress(128);
                 break;
 
             case R.id.iteBlue :
+                //Change color to blue
+                vRed.setProgress(0);
+                vGreen.setProgress(0);
+                vBlue.setProgress(255);
+                vAlpha.setProgress(128);
                 break;
 
             case R.id.iteCyan :
@@ -95,6 +116,9 @@ public class Palette extends AppCompatActivity
                 break;
 
             case R.id.iteAboutof :
+                //Go/jump to Aboutof Activity
+                Intent intent = new Intent(this, AboutofActivity.class);
+                startActivity(intent);
                 break;
         }
         return super.onOptionsItemSelected(item);
