@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyPets</string>
+
+    <!-- LoginActivity  -->
+    <string name="ht_text_username">Username</string>
+    <string name="ht_text_passwd">Password</string>
+    <string name="btn_text_login">Sign in</string>
+    <string name="btn_text_register">Sign up</string>
+
+    <!-- RegisterUserActivity -->
+    <string name="activity_label">New user</string>
+    <string name="username_label">E-mail</string>
+    <string name="password_label">Password</string>
+    <string name="password2_label">Repeat password</string>
+    <string name="btn_register_label">Register</string>
+
+    <!-- ListPetsActivity -->
+    <string name="title_actListPets">All pets</string>
+
+    <!-- ListUsersActivity -->
+    <string name="title_actListUsers">All Users</string>
+
+</resources>

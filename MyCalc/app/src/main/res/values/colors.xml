@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorBg1Calc">#000000</color>
+    <color name="colorBgDisplay1">#000000</color>
+    <color name="colorTextDisplay1">#F1EBEB</color>
+
+    <color name="colorBg1Btns">#FF9800</color>
+    <color name="colorTxtBtns_1">#FDFDFD</color>
+</resources>

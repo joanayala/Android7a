@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- LoginAcivity -->
+    <color name="colorHint">#FCFBFB</color>
+    <color name="colorText">#FCFBFB</color>
+    <color name="colorEtLine">#FCFBFB</color>
+    <color name="colorBtnLogin">#BE0B0B</color>
+    <color name="colorBtnText">#FCF9F9</color>
+
+    <!-- LoginAcivity -->
+    <color name="colorBtnRegNewUser">#BE0B0B</color>
+</resources>

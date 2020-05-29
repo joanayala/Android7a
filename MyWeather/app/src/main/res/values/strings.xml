@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+
+    <string name="hnt_ex_city">Ex. Cali, CO</string>
+    <string name="btn_title_search">Search city</string>
+    <string name="lbl_current">Current</string>
+    <string name="lbl_min">Min</string>
+    <string name="lbl_max">Max</string>
+    <string name="lbl_weather">Weather</string>
+
+    <string name="hnt_current">Current weather</string>
+    <string name="hnt_min">Min weather</string>
+    <string name="hnt_max">Max weather</string>
+    <string name="hnt_weather">Weather description</string>
+
+    <string name="btn_title_maps">Go to maps</string>
+</resources>

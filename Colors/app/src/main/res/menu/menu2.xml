@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/iteHelp"
-        android:title="@string/lblHelp" />
+    <item android:title="Menu" android:icon="@drawable/ic_more_opts" app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/iteTransparent" android:title="@string/lblOpTransparent" android:icon="@drawable/ic_brightness_black"/>
+            <item android:id="@+id/iteHelp" android:title="@string/lblHelp" android:icon="@drawable/ic_help_black"/>
+        </menu>
+    </item>
 
 </menu>

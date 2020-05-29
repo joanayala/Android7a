@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="buttons_color">#8A0707</color>
+
+    <color name="layoutH1">#F1DF4E</color>
+    <color name="layoutH2">#BAF038</color>
+    <color name="layoutH3">#F53E3E</color>
+    <color name="layoutH4">#207FF3</color>
+
+    <color name="standardColor">#F8EEB7</color>
+
+    <color name="BgSplashScreen">#CCF2F8</color>
+</resources>
